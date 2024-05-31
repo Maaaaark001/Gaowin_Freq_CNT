@@ -1,0 +1,15 @@
+-d C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\impl\gwsynthesis\9K_FREQ.vg
+-p GW1NR-9C-QFN88P-6
+-pn GW1NR-LV9QN88PC6/I5
+-cst C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\9K_FREQ.cst
+-cfg C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\impl\pnr\device.cfg
+-sdc C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\9K_FREQ.sdc
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-place_option 2
+-route_option 1
+-clock_route_order 1
+-route_maxfan 23

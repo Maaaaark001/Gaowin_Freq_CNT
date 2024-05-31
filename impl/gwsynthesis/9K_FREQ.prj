@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\TOP.v" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\freq_cnt_calc.v" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\gowin_osc\gowin_osc.v" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\impl\gwsynthesis\9K_FREQ.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="TOP"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

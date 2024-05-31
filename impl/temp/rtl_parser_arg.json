@@ -1,0 +1,29 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/freq_cnt_calc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_osc/gowin_osc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_rpll/gowin_rpll.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/impl/temp/rtl_parser.result",
+ "Top" : "TOP",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

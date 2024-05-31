@@ -1,0 +1,36 @@
+[
+ {
+  "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+  "InstLine" : 1,
+  "InstName" : "TOP",
+  "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+    "InstLine" : 10,
+    "InstName" : "ref_OSC",
+    "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+    "InstLine" : 11,
+    "InstName" : "OSC_2_5M",
+    "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_osc/gowin_osc.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+    "InstLine" : 12,
+    "InstName" : "new_freq_cnt",
+    "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/freq_cnt_calc.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "freq_cnt_calc"
+   }
+  ]
+ }
+]
