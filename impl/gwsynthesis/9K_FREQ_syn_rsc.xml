@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module name="TOP">
     <SubModule name="ref_OSC"/>
+    <SubModule name="OSC_2_5M"/>
     <SubModule name="new_freq_cnt" Register="155" Alu="555" Lut="2198" MULT36X36="1" Ssram="9"/>
 </Module>

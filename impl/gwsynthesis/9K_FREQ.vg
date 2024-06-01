@@ -1,7 +1,7 @@
 //
 //Written by GowinSynthesis
 //Tool Version "V1.9.9"
-//Fri May 31 14:58:00 2024
+//Sat Jun  1 18:29:04 2024
 
 //Source file index table:
 //file0 "\C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v"
@@ -68,9 +68,28 @@ defparam rpll_inst.PSDA_SEL="0000";
     .G(GND)
 );
 endmodule /* Gowin_rPLL */
+module Gowin_OSC (
+  clk_test
+)
+;
+output clk_test;
+wire VCC;
+wire GND;
+  OSC osc_inst (
+    .OSCOUT(clk_test) 
+);
+defparam osc_inst.DEVICE="GW1NR-9C";
+defparam osc_inst.FREQ_DIV=100;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* Gowin_OSC */
 module freq_cnt_calc (
   sys_clk_d,
-  clk_test_d,
+  clk_test,
   ref_clk_o,
   sys_rst_n_d,
   freq_o_d_33_7,
@@ -110,7 +129,7 @@ module freq_cnt_calc (
 )
 ;
 input sys_clk_d;
-input clk_test_d;
+input clk_test;
 input ref_clk_o;
 input sys_rst_n_d;
 output freq_o_d_33_7;
@@ -20244,7 +20263,7 @@ defparam n3029_s43.INIT=16'h5044;
   DFFC gate_a_s0 (
     .Q(gate_a),
     .D(gate_s),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_stand_27_s0 (
@@ -20418,169 +20437,169 @@ defparam n3029_s43.INIT=16'h5044;
   DFFC cnt_clk_test_27_s0 (
     .Q(cnt_clk_test[27]),
     .D(n304_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_26_s0 (
     .Q(cnt_clk_test[26]),
     .D(n305_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_25_s0 (
     .Q(cnt_clk_test[25]),
     .D(n306_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_24_s0 (
     .Q(cnt_clk_test[24]),
     .D(n307_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_23_s0 (
     .Q(cnt_clk_test[23]),
     .D(n308_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_22_s0 (
     .Q(cnt_clk_test[22]),
     .D(n309_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_21_s0 (
     .Q(cnt_clk_test[21]),
     .D(n310_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_20_s0 (
     .Q(cnt_clk_test[20]),
     .D(n311_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_19_s0 (
     .Q(cnt_clk_test[19]),
     .D(n312_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_18_s0 (
     .Q(cnt_clk_test[18]),
     .D(n313_16),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_17_s0 (
     .Q(cnt_clk_test[17]),
     .D(n314_14),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_16_s0 (
     .Q(cnt_clk_test[16]),
     .D(n315_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_15_s0 (
     .Q(cnt_clk_test[15]),
     .D(n316_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_14_s0 (
     .Q(cnt_clk_test[14]),
     .D(n317_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_13_s0 (
     .Q(cnt_clk_test[13]),
     .D(n318_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_12_s0 (
     .Q(cnt_clk_test[12]),
     .D(n319_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_11_s0 (
     .Q(cnt_clk_test[11]),
     .D(n320_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_10_s0 (
     .Q(cnt_clk_test[10]),
     .D(n321_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_9_s0 (
     .Q(cnt_clk_test[9]),
     .D(n322_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_8_s0 (
     .Q(cnt_clk_test[8]),
     .D(n323_10),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_7_s0 (
     .Q(cnt_clk_test[7]),
     .D(n324_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_6_s0 (
     .Q(cnt_clk_test[6]),
     .D(n325_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_5_s0 (
     .Q(cnt_clk_test[5]),
     .D(n326_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_4_s0 (
     .Q(cnt_clk_test[4]),
     .D(n327_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_3_s0 (
     .Q(cnt_clk_test[3]),
     .D(n328_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_2_s0 (
     .Q(cnt_clk_test[2]),
     .D(n329_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_1_s0 (
     .Q(cnt_clk_test[1]),
     .D(n330_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC cnt_clk_test_0_s0 (
     .Q(cnt_clk_test[0]),
     .D(n331_7),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC gate_a_stand_s0 (
@@ -20788,7 +20807,7 @@ defparam n3029_s43.INIT=16'h5044;
   DFFC gate_a_test_s0 (
     .Q(gate_a_test),
     .D(gate_a),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CLEAR(n6_8) 
 );
   DFFC calc_flag_s0 (
@@ -21136,7 +21155,7 @@ defparam n3029_s43.INIT=16'h5044;
     .B({GND,GND,GND,GND,GND,GND,GND,GND,cnt_clk_test[27:0]}),
     .ASIGN(GND),
     .BSIGN(GND),
-    .CLK(clk_test_d),
+    .CLK(clk_test),
     .CE(gate_a_fall_t),
     .RESET(n6_8) 
 );
@@ -26165,18 +26184,16 @@ endmodule /* freq_cnt_calc */
 module TOP (
   sys_clk,
   sys_rst_n,
-  clk_test,
   freq_o
 )
 ;
 input sys_clk;
 input sys_rst_n;
-input clk_test;
 output [33:0] freq_o;
 wire sys_clk_d;
 wire sys_rst_n_d;
-wire clk_test_d;
 wire ref_clk_o;
+wire clk_test;
 wire freq_o_d_33_7;
 wire freq_o_d_32_7;
 wire freq_o_d_31_7;
@@ -26220,10 +26237,6 @@ wire GND;
   IBUF sys_rst_n_ibuf (
     .O(sys_rst_n_d),
     .I(sys_rst_n) 
-);
-  IBUF clk_test_ibuf (
-    .O(clk_test_d),
-    .I(clk_test) 
 );
   OBUF freq_o_0_obuf (
     .O(freq_o[0]),
@@ -26365,9 +26378,12 @@ wire GND;
     .sys_clk_d(sys_clk_d),
     .ref_clk_o(ref_clk_o)
 );
+  Gowin_OSC OSC_2_5M (
+    .clk_test(clk_test)
+);
   freq_cnt_calc new_freq_cnt (
     .sys_clk_d(sys_clk_d),
-    .clk_test_d(clk_test_d),
+    .clk_test(clk_test),
     .ref_clk_o(ref_clk_o),
     .sys_rst_n_d(sys_rst_n_d),
     .freq_o_d_33_7(freq_o_d_33_7),

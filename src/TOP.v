@@ -1,7 +1,6 @@
 module TOP(
     input wire sys_clk,
     input wire sys_rst_n,
-    input clk_test,
     output wire [33:0] freq_o
 );
 //wire [33:0] freq;
