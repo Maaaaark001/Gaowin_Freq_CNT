@@ -16,6 +16,14 @@
   {
    "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/div.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/spi_slave.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [

@@ -8,6 +8,8 @@
         <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\freq_cnt_calc.v" type="verilog"/>
         <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\gowin_osc\gowin_osc.v" type="verilog"/>
         <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\div.v" type="verilog"/>
+        <File path="C:\Users\Administrator\Documents\FPGA\9K\9K_FREQ\src\spi_slave.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
