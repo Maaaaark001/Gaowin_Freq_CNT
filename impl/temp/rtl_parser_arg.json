@@ -2,27 +2,27 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+   "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/TOP.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/freq_cnt_calc.v",
+   "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/div.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_osc/gowin_osc.v",
+   "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/freq_cnt_calc.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_rpll/gowin_rpll.v",
+   "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/gowin_osc/gowin_osc.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/div.v",
+   "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/spi_slave.v",
+   "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/spi_slave.v",
    "Type" : "verilog"
   }
  ],
@@ -30,7 +30,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/impl/temp/rtl_parser.result",
  "Top" : "TOP",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

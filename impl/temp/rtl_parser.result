@@ -1,35 +1,43 @@
 [
  {
-  "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+  "InstFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/TOP.v",
   "InstLine" : 1,
   "InstName" : "TOP",
-  "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
+  "ModuleFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/TOP.v",
   "ModuleLine" : 1,
   "ModuleName" : "TOP",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
-    "InstLine" : 9,
+    "InstFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/TOP.v",
+    "InstLine" : 13,
     "InstName" : "ref_OSC",
-    "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_rpll/gowin_rpll.v",
+    "ModuleFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/gowin_rpll/gowin_rpll.v",
     "ModuleLine" : 10,
     "ModuleName" : "Gowin_rPLL"
    },
    {
-    "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
-    "InstLine" : 10,
+    "InstFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/TOP.v",
+    "InstLine" : 14,
     "InstName" : "OSC_2_5M",
-    "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/gowin_osc/gowin_osc.v",
+    "ModuleFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/gowin_osc/gowin_osc.v",
     "ModuleLine" : 10,
     "ModuleName" : "Gowin_OSC"
    },
    {
-    "InstFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/TOP.v",
-    "InstLine" : 11,
+    "InstFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/TOP.v",
+    "InstLine" : 15,
     "InstName" : "new_freq_cnt",
-    "ModuleFile" : "C:/Users/Administrator/Documents/FPGA/9K/9K_FREQ/src/freq_cnt_calc.v",
+    "ModuleFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/freq_cnt_calc.v",
     "ModuleLine" : 1,
     "ModuleName" : "freq_cnt_calc"
+   },
+   {
+    "InstFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/TOP.v",
+    "InstLine" : 16,
+    "InstName" : "new_clk",
+    "ModuleFile" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/div.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "clk_div"
    }
   ]
  }
