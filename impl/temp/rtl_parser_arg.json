@@ -24,6 +24,10 @@
   {
    "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/spi_slave.v",
    "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Administrator/Desktop/Projects/Gaowin_Freq_CNT/src/Freq_out.v",
+   "Type" : "verilog"
   }
  ],
  "IncludePath" : [
